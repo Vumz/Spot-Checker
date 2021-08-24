@@ -1,0 +1,25 @@
+{
+  "name": "USMLE Spot Checker",
+  "version": "1.5",
+  "manifest_version": 2,
+  "description": "An extension to notify users of Step 1, Step 2, and COMLEX testing date availability.",
+  "icons": {
+    "16": "icons/SpotAlternate16.png",
+    "48": "icons/SpotAlternate48.png",
+    "128": "icons/SpotAlternate128.png"
+  },
+  "background": {
+    "scripts": ["src/bg/background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "USMLE Spot Checker",
+    "default_popup": "src/browser_action/popup.html"
+  },
+  "permissions": [
+    "https://securereg3.prometric.com/*",
+    "storage",
+    "notifications"
+  ],
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+}

@@ -1,0 +1,32 @@
+#mainPopup {
+    padding: 10px;
+    height: 500px;
+    width: 350px;
+    font-family: Helvetica, Ubuntu, Arial, sans-serif;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+#searchForm {
+    padding-bottom: 10px;
+}
+
+.state {
+    
+}
+
+.comlex {
+    
+}
+
+.form {
+
+}
+
+.activeClass{
+    background: #6cc04a; 
+}
